@@ -48,4 +48,12 @@ pagination_dir: page
 theme: jacman
 
 deploy:
-  type:
+  type: rsync
+  host: 121.40.218.212
+  user: root
+  root: /home/blog
+  port: 22
+  delete: true
+  args:
+  verbose: true
+  ignore_errors: false
