@@ -1,0 +1,51 @@
+# Site
+title: 郑圣东的博客
+subtitle: yesterday you said tomorrow
+description: 技术博客,blog,iOS,javascript,node.js,java,前端,后端,全栈
+author: Michael
+language: zh-CN
+timezone:
+
+url: http://kyfxbl.com
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link: true
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: true
+  tab_replace:
+
+default_category: uncategorized
+category_map:
+tag_map:
+
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+per_page: 10
+pagination_dir: page
+
+theme: jacman
+
+deploy:
+  type:
