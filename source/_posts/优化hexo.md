@@ -1,7 +1,7 @@
 title: 优化hexo
 date: 2015-07-25 16:16:51
 categories: 其它
-tags: [hexo, Jacman]
+tags: [hexo]
 ---
 最近开始玩hexo，它并非一个博客系统，而是一个静态博客生成工具。我参考了网上的一些文章，也做了一些优化。本文总结一下搭博客以来的一些经验。
 <!--more-->

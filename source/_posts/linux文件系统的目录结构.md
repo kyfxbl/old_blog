@@ -1,7 +1,7 @@
 title: linux文件系统的目录结构
 date: 2013-09-24 10:31
 categories: linux
-tags: [目录结构]
+tags: []
 ---
 本文系转载，linux的文件目录结构
 <!--more-->
