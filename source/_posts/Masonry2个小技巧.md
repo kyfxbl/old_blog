@@ -1,7 +1,6 @@
 title: Masonry2个小技巧
 date: 2015-07-26 22:27:45
 categories: iOS
-tags: [Masonry, iOS特效]
 ---
 本文介绍使用Masonry时，怎么得到真实frame，以及如何实现动画
 <!--more-->

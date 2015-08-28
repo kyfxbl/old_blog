@@ -1,7 +1,6 @@
 title: npm常用命令
 date: 2014-08-14 17:07
 categories: javascript
-tags: [npm, node]
 ---
 常用的npm命令
 <!--more-->

@@ -1,7 +1,6 @@
 title: MJRefresh原理分析
 date: 2015-07-26 16:25:56
 categories: iOS
-tags: [MJRefresh, iOS特效]
 ---
 MJRefresh是流行的下拉刷新控件，前段时间为了修复一个BUG，读了它的源码，本文总结一下实现的原理
 <!--more-->

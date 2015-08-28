@@ -1,7 +1,6 @@
 title: 用CSStickyHeaderFlowLayout实现StickyHeader
 date: 2015-07-21 00:25:09
 categories: iOS
-tags: [CSStickyHeaderFlowLayout, iOS特效]
 ---
 最近流行的一种界面效果，是瀑布流的header固定，也叫sticky header或者parallax。对于UITableView，可以比较方便地让table header固定，但是对于UICollectionView，原生的iOS API比较难以实现。本文推荐一个开源组件，专门用于实现这种效果：[CSStickyHeaderFlowLayout](https://github.com/jamztang/CSStickyHeaderFlowLayout)
 <!--more-->

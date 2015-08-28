@@ -1,7 +1,6 @@
 title: maven指定pom.xml路径，及多线程构建
 date: 2013-09-24 11:13
 categories: java
-tags: [maven]
 ---
 本文介绍如何指定maven的pom.xml位置，以及开启多线程build
 <!--more-->
