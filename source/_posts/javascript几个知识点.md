@@ -130,7 +130,7 @@ function doSomething(){
 }
 ```
 
-如果只看这段代码，无法确定在运行时this指向哪个对象。要确定javascript中的this指向哪个对象，必须依赖上下文。总共有4种情况：
+如果只看这段代码，无法确定在运行时this指向哪个对象。要确定javascript中的this指向哪个对象，必须依赖上下文。总共有5种情况：
 
 ## 作为某对象的方法被调用
 
@@ -204,6 +204,29 @@ sayHi.call(obj);
 ```
 
 这种情况下，this就是call的第一个参数
+
+## 在顶层代码中的行为
+
+在顶层环境，即不在任何function内部的this，在浏览器环境和node环境不同
+
+在node环境，以下代码的输出结果可能有点出人意料：
+```
+console.log(this === exports);// true
+console.log(this === global);// false
+
+(function(){
+    console.log(this === exports);// false
+    console.log(this === global);// true
+})();
+```
+在顶层环境，this指向module.exports，而非global
+
+而在浏览器环境，顶层的this指向window
+```
+alert(this === window);// true
+```
+
+这是浏览器环境和node环境的差异
 
 # function的高级属性
 
