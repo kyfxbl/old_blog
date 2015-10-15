@@ -1,6 +1,6 @@
 title: Hexo插件机制分析
 date: 2015-08-19 15:43:55
-categories: javascript
+categories: 源码阅读 
 ---
 最近想开发一个rest API的框架，需要用到插件机制。正好前段时间在玩Hexo，觉得它那套机制还不错，于是参考了一下。本文总结一下它的实现思路
 <!--more-->
