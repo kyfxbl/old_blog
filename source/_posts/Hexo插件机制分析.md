@@ -73,7 +73,7 @@ $ init blog --verbose --cwd /usr/local/
 { _: [ 'init', 'blog' ], verbose: true, cwd: '/usr/local/' }
 ```
 
-以--开头的参数，会处理成key/value；其他的参数会以数组的形式放到_里。后续可以很容易地从_中按顺序取出参数，或者判断某参数是否存在
+以--开头的参数，会处理成key/value；其他的参数会以数组的形式保存。后续可以很容易地从中按顺序取出参数，或者判断某参数是否存在
 
 ### abbrev
 
