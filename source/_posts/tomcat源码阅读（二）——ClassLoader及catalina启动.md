@@ -35,7 +35,11 @@ System类加载器，也叫App类加载器，一般就是启动应用程序的�
 
 这里的ClassLoader与标准的ClassLoader委托模型不同，当需要加载一个类的时候，首先是委托Bootstrap和System；然后尝试自行加载；最后才会委托Common 
 
-加载顺序如下： Bootstrap -> System -> WEB-INF/classes -> WEB-INF/lib -> Common 
+加载顺序如下： 
+
+```
+Bootstrap -> System -> WEB-INF/classes -> WEB-INF/lib -> Common
+```
 
 # 疑问 
 
