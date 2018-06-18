@@ -49,7 +49,7 @@ theme: jacman
 
 deploy:
   type: rsync
-  host: 121.40.218.212
+  host: 120.27.11.106
   user: root
   root: /home/blog
   port: 22
